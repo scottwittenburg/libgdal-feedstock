@@ -64,6 +64,7 @@ export CPPFLAGS="$CPPFLAGS -I$PREFIX/include"
             --with-expat=$PREFIX \
             --with-freexl=$PREFIX \
             --with-geos=$PREFIX/bin/geos-config \
+            --with-geotiff=$PREFIX \
             --with-hdf4=$PREFIX \
             --with-hdf5=$PREFIX \
             --with-jpeg=$PREFIX \
