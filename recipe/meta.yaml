@@ -60,6 +60,7 @@ requirements:
     - freexl
     - geos >=3.6
     - giflib 5.1.*  # [not win]
+    - geotiff
     - hdf4
     - hdf5 1.10.1
     - jpeg 9*
