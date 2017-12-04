@@ -85,7 +85,6 @@ export CPPFLAGS="$CPPFLAGS -I$PREFIX/include"
             --with-static-proj4=$PREFIX \
             --with-xerces=$PREFIX \
             --with-xml2=$PREFIX \
-            --without-curl \
             --without-python \
             --without-odbc \
             --without-webp \
