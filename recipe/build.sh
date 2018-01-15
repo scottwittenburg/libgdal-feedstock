@@ -33,7 +33,7 @@ rm -rf $PREFIX/lib/*.la
 unset PYTHON
 
 export CFLAGS="-O2 -Wl,-S $CFLAGS"
-export CXXFLAGS="-O2 -Wl,-S $CXXFLAGS"
+export CXXFLAGS="-O2 -Wl,-S $CXXFLAGS -D_GLIBCXX_USE_CXX11_ABI=0"
 
 if [ $(uname) == Darwin ]; then
     export LDFLAGS="-headerpad_max_install_names"
